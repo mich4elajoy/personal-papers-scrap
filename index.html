@@ -1,16 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ npm</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and npm!</h1>
-      <button class="btn-solid theme-primary">Primary button</button>
-    </div>
-    <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Papers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Personal Papers</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Papers</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+    </nav>
+</header>
+
+<div class="layout">
+
+    <aside class="sidebar">
+        <h3>Library</h3>
+
+        <ul>
+            <li><a href="#">Research Papers</a></li>
+            <li><a href="#">Technical Notes</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Bookmarks</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+
+        <section class="hero">
+            <h1>Knowledge Base</h1>
+            <p>Personal collection of papers, projects, and notes.</p>
+        </section>
+
+        <section class="cards">
+
+            <article class="card">
+                <h2>Paper Title</h2>
+                <p>Short summary of the paper.</p>
+            </article>
+
+            <article class="card">
+                <h2>Research Notes</h2>
+                <p>Collected notes and references.</p>
+            </article>
+
+            <article class="card">
+                <h2>Projects</h2>
+                <p>Experiments and implementations.</p>
+            </article>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
 </html>
